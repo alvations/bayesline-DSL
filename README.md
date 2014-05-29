@@ -3,7 +3,7 @@ bayesline
 
 A Multinomial Bayesian Classification for Language Identification.
 
-`bayseline.py` is used as a baseline system for the Discrimination of Similar Languages (DSL) shared task in COLING-2014 ((http://corporavm.uni-koeln.de/vardial/sharedtask.html).
+`bayseline.py` is used as a baseline system for the Discrimination of Similar Languages (DSL) shared task in COLING-2014 ((http://corporavm.uni-koeln.de/vardial/sharedtask.html). The best configuration of the system uses character 5grams as features and reports an overall accuracy of 94.3% 
 
 
 System Reults
