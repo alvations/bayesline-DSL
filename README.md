@@ -9,16 +9,12 @@ Cite
 ====
 
 ```
-@InProceedings{seedling2014,
-  author    = {Liling Tan, Marcos Zampieri, Nikola Ljubešic, Jörg Tiedemann},
-  title     = {Merging Comparable Data Sources for the Discrimination of Similar Languages: The DSL Corpus Collection},
-  booktitle = {Proceedings of the 7th Workshop on Building and Using Comparable Corpora: Building Resources for Machine Translation Research},
-  month     = {May},
-  year      = {2014},
-  address   = {Reykjavik, Iceland},
-  publisher = {European Language Resources Association},
-  pages     = {},
-  url       = {}
+@article{tan2014merging,
+  title={Merging Comparable Data Sources for the Discrimination of Similar Languages: The DSL Corpus Collection},
+  author={Tan, Liling and Zampieri, Marcos and Ljube{\v{s}}ic, Nikola and Tiedemann, J{\"o}rg},
+  journal={Proceedings of the 7th Workshop on Building and Using Comparable Corpora},
+  pages={11--15},
+  year={2014}
 }
 ```
 
