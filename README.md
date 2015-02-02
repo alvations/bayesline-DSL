@@ -21,15 +21,22 @@ Cite
 Dataset
 ====
 
-The Disambiguating Similar Language Corpora Collection (DSLCC) files are formatted as tab-separated files, e.g.:
+The Disambiguating Similar Language Corpora Collection (DSLCC) files are formatted as tab-separated files, as such:
 
 ```
 sent<tab>lang/variety group<tab>lang code
 ```
 
-**DSLCC Training + Dev Set**: https://db.tt/pRxy0IWW
-**DSLCC Test**: https://db.tt/av31jYYn
-**DSLCC Gold**: https://db.tt/iLA6iY2D
+ - **DSLCC Training + Development Set**: https://db.tt/pRxy0IWW 
+ - **DSLCC Test**: https://db.tt/av31jYYn
+ - **DSLCC Gold**: https://db.tt/iLA6iY2D
+
+**Note**: 
+
+ - **DSLCC Train** contains 18,000 sentences per languagae/variety (lang/var), **DSLCC Devel** contains 2,000 sentences per lang/var
+ - **DSLCC Test** contains 1,000 sentences per lang/var
+ - `DSLCC Test` sentences are the same as the `DSLCC Gold`. It's just that `DSLCC Gold` contains the language code.
+ - The `bayseline.py` only uses 18,000 from training dataset ;)
 
 System Reults
 ====
