@@ -35,7 +35,7 @@ sent<tab>lang/variety group<tab>lang code
 
  - **DSLCC Train** contains 18,000 sentences per languagae/variety (lang/var), **DSLCC Devel** contains 2,000 sentences per lang/var
  - **DSLCC Test** contains 1,000 sentences per lang/var
- - `DSLCC Test` sentences are the same as the `DSLCC Gold`. It's just that `DSLCC Gold` contains the language code.
+ - **DSLCC Test** sentences are the same as the **DSLCC Gold**. It's just that **DSLCC Gold** contains the language code.
  - The `bayseline.py` only uses 18,000 from training dataset ;)
  - The official repo for the shared task is here: https://bitbucket.org/alvations/dslsharedtask2014
 
