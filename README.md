@@ -18,6 +18,18 @@ Cite
 }
 ```
 
+Dataset
+====
+
+The Disambiguating Similar Language Corpora Collection (DSLCC) files are formatted as tab-separated files, e.g.:
+
+"""
+sent<tab>lang/variety group<tab>lang code
+"""
+
+**DSLCC Training + Dev Set**: https://db.tt/pRxy0IWW
+**DSLCC Test**: https://db.tt/av31jYYn
+**DSLCC Gold**: https://db.tt/iLA6iY2D
 
 System Reults
 ====
