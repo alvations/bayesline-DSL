@@ -29,8 +29,11 @@ def blind_ne_experiment(blind_function):
     goldtags = list(dslcc.gold_labels())
     discriminate.test(test_docs, goldtags, vectorizer, classifier)
 
-
+discriminate.demo()
+print
 blind_ne_experiment(blind_CAPS)
 print 
 blind_ne_experiment(blind_CAPS_without_first_word)
+print 
+
 
