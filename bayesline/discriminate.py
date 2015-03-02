@@ -11,12 +11,14 @@ from corpus import DSLCC, sents
 dslcc = DSLCC()
 this_directory = os.path.dirname(os.path.realpath(__file__))
 
-def train(train_docs, train_labels, n=5):
+def train(train_docs, train_labels, 
+          classifier_choice= MultinomialNB,
+          n=5):
     ngram_vectorizer = CountVectorizer(analyzer='char',
                                        ngram_range=(n, n), min_df=1)
     trainset = ngram_vectorizer.fit_transform(train_docs)
     tags = train_labels
-    classifier = MultinomialNB()
+    classifier = classifier_choice()
     classifier.fit(trainset, tags)
     return ngram_vectorizer, classifier 
     
