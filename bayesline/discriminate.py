@@ -3,7 +3,6 @@
 import os, sys, time
 import cPickle as pickle
 
-
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
