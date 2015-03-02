@@ -43,10 +43,10 @@ def train_bayesline():
     train_labels = list(dslcc.train_labels())
     
     ngram_vectorizer, classifier  = train(train_docs, train_labels)    
-    with open("bayseline.clf", "w") as fout:
+    with open("bayesline.clf", "w") as fout:
         pickle.dump(classifier, fout)
         
-    with open("bayseline.vectorizer", "w") as fout:
+    with open("bayesline.vectorizer", "w") as fout:
         pickle.dump(ngram_vectorizer, fout)
     return ngram_vectorizer, classifier
 
@@ -55,8 +55,8 @@ def load_bayesline():
     Loads the default 5 character ngram classifier reported in BUCC 2014 and 
     DSL shared task 2014.
     """
-    with open("bayseline.vectorizer", "rb") as fin1, \
-    open("bayseline.clf", "rb") as fin2:
+    with open("bayesline.vectorizer", "rb") as fin1, \
+    open("bayesline.clf", "rb") as fin2:
         return pickle.load(fin1), pickle.load(fin2)
 
 def demo(tosave=True, toevaluate=True):
