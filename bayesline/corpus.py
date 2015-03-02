@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
-import io
+import io, os
+
+this_directory = os.path.dirname(os.path.realpath(__file__))
 
 def sents(infile):
     """ Lazy corpus reader that yields line. """
@@ -20,9 +22,9 @@ class DSLCC:
     """
     # Training data.
     def train_docs(self):
-        return sents('dslcc/train-docs.txt')
+        return sents(this_directory + '/dslcc/train-docs.txt')
     def train_labels(self):
-        return sents('dslcc/train-labels.txt')
+        return sents(this_directory + '/dslcc/train-labels.txt')
         
     def train(self):
         """ Yields document and labels concurrently """
@@ -31,9 +33,9 @@ class DSLCC:
     
     # Test data.
     def test_docs(self):
-        return sents('dslcc/test-docs.txt')
+        return sents(this_directory + '/dslcc/test-docs.txt')
     def gold_labels(self):
-        return sents('dslcc/gold-labels.txt')
+        return sents(this_directory + '/dslcc/gold-labels.txt')
 
     def test(self):
         """ Yields document and labels concurrently """
