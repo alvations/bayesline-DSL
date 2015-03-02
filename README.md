@@ -31,12 +31,13 @@ Usage
 ====
 
 ```
-import bayesline
-
-sent1 = u'De todas as provações que teve de suplantar ao longo da vida, qual foi a mais difícil? O início. Qualquer começo apresenta dificuldades que parecem intransponíveis. Mas tive sempre a minha mãe do meu lado. Foi ela quem me ajudou a encontrar forças para enfrentar as situações mais decepcionantes, negativas, as que me punham mesmo furiosa.'
-sent2 = u'Ona tzv. zelená revoluce, schopnost důkladně zvětšit produkci rýže, a tak odvrátit hladomor zejména v Asii, je často uváděna jako přesvědčivý příklad. Pošto je EULEX obećao da će obaviti istragu o prošlosedmičnom izbijanju nasilja na sjeveru Kosova, taj incident predstavlja još jedan ispit kapaciteta misije da doprinese jačanju vladavine prav'
-print bayesline.tag(sent1)
-print bayesline.tag([sent1, sent2])
+>>> import bayesline
+>>> sent1 = u'De todas as provações que teve de suplantar ao longo da vida, qual foi a mais difícil? O início. Qualquer começo apresenta dificuldades que parecem intransponíveis. Mas tive sempre a minha mãe do meu lado. Foi ela quem me ajudou a encontrar forças para enfrentar as situações mais decepcionantes, negativas, as que me punham mesmo furiosa.'
+>>> sent2 = u'Ona tzv. zelená revoluce, schopnost důkladně zvětšit produkci rýže, a tak odvrátit hladomor zejména v Asii, je často uváděna jako přesvědčivý příklad. Pošto je EULEX obećao da će obaviti istragu o prošlosedmičnom izbijanju nasilja na sjeveru Kosova, taj incident predstavlja još jedan ispit kapaciteta misije da doprinese jačanju vladavine prav'
+>>> bayesline.tag(sent1)
+pt-PT
+>>> bayesline.tag([sent1, sent2])
+[u'pt-PT' u'bs']
 ```
 
 System Reults
