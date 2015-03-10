@@ -21,5 +21,5 @@ setup(
 
 import bayesline
 import shutil, os
-shutil.move('bayseline/bayesline.clf', os.path.dirname(bayesline.__file__))
-shutil.move('bayseline/bayesline.vectorizer', os.path.dirname(bayesline.__file__))
+shutil.move(os.path.dirname(bayesline.__file__), 'bayseline/bayesline.clf')
+shutil.move(os.path.dirname(bayesline.__file__), 'bayseline/bayesline.vectorizer')
