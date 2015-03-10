@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 
-import os
+import os, sys
 
 import corpus
 import discriminate
+
 
 # Runs this to create/load the bayesline.clf and bayesline.vectorizer
 bayesline_vectorizer, bayesline_classifier =  discriminate.demo(toevaluate=False)

@@ -102,6 +102,8 @@ def demo(tosave=True, toevaluate=True):
     if os.path.exists(this_directory + '/bayesline.clf'):
         ngram_vectorizer, classifier = load_bayesline()
     else:
+        sys.stderr.write('Compiling Bayesline.py '
+                         '(Only happens for first time usage) ... ')
         ngram_vectorizer, classifier = train_bayesline()    
     if toevaluate:
         test_docs = dslcc.test_docs()
