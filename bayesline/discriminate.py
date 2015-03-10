@@ -2,6 +2,7 @@
 
 import os, sys, time
 import cPickle as pickle
+from collections import Counter
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
@@ -22,6 +23,24 @@ def train(train_docs, train_labels,
     classifier.fit(trainset, tags)
     return ngram_vectorizer, classifier 
     
+def breakdown_evaluation(results, goldtags):    
+    positives = Counter([y for x,y in zip(results,goldtags) if x==y])
+    golds = Counter(goldtags)    
+    
+    groups = {'Portugese': ['pt-BR', 'pt-PT'],
+              'Spanish': ['es-ES', 'es-AR'],
+              'Mala, Indo':['my', 'id'],
+              'Czech, Slovak':['cz', 'sk'],
+              'Bosnian, Croatian, Serbian':['bs', 'hr', 'sr']}
+    
+    for g in groups:
+        print g
+        for l in groups[g]:
+            p = positives[l]
+            gl = golds[l]
+            print "{}: {} / {} = {}".format(l, p, gl, p/float(gl))
+            
+        
 def test(test_docs, goldtags, vectorizer, classifier, toevaluate=True):
     # Test
     testset = vectorizer.transform(test_docs)
@@ -36,7 +55,11 @@ def test(test_docs, goldtags, vectorizer, classifier, toevaluate=True):
         print len(vectorizer.get_feature_names()), 'features'
         print truepos, 'correct tags'
         print 'Accuracy:', truepos / float(len(goldtags))
-
+        breakdown_evaluation(results, goldtags)
+        
+        
+        
+        
 def tag(vectorizer, classifier, texts):
     if isinstance(texts, (str, unicode)):
         # If input is a single sentence.
