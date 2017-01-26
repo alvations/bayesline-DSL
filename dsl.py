@@ -17,9 +17,9 @@ def data(filename):
     with open(filename, 'r', encoding='utf8') as fin:
         sentences, labels = [], []
         for line in fin:
-            x, y = line.strip().split('\t')
+            x, *y = line.strip().split('\t')
             sentences.append(x)
-            labels.append(y)
+            labels.append(y[0])
         return sentences, labels
 
 X_train, y_train = data(dsl2017['train'])
