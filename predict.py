@@ -1,13 +1,25 @@
 # -*- coding: utf-8 -*-
 
 import sys
-import pickle 
+import pickle
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 
-from dsl import data, dsl2017
+dsl2017 = {'train': 'DSLCC-2017/Train/DSL/DSL-TRAIN.txt',
+           'dev': 'DSLCC-2017/Train/DSL/DSL-DEV.txt',
+           'test': 'DSLCC-2015/Test/DSL/DSL-test.txt'}
+
+
+def data(filename):
+    with open(filename, 'r', encoding='utf8') as fin:
+        sentences, labels = [], []
+        for line in fin:
+            x, *y = line.strip().split('\t')
+            sentences.append(x)
+            labels.append(y[0])
+        return sentences, labels
 
 
 vectorizer_filename = sys.argv[1]
