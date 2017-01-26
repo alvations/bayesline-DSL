@@ -26,7 +26,7 @@ X_dev, y_dev = data(dsl2017['dev'])
 #X_test, y_test = data(dsl['test'])
 
 print ('Vectorizing...', end='')
-start = time.tim()
+start = time.time()
 ngram_vectorizer = CountVectorizer(analyzer='char',
                                    ngram_range=(1, 5), min_df=1)
 trainset = ngram_vectorizer.fit_transform(X_train)
