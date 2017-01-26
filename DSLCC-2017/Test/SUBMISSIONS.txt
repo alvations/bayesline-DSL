@@ -1,0 +1,71 @@
+Dear VarDial Evaluation Campaign Participant,
+
+We will be releasing the test sets on Wednesday, January 25, and we would like to share some information with you to help you set up your systems/submissions.
+
+Please forward this information to the other members of your team as we are only sending this e-mail to the contact person of each group.
+
+- Participants in the (CLP) Cross-lingual Dependency Parsing (CLP) Task
+
+Participants in the CLP task should access the task website where the test set, evaluation script, and information on submissions will be available on Wednesday: https://bitbucket.org/tiedemann/vardial2017
+
+The parsed test set should be sent to Jörg Tiedemann: jorg.tiedemann@helsinki.fi
+
+- Participants in the DSL, ADI, and GDI Tasks
+
+You will be receiving the test sets from us via e-mail.
+
+DSL and ADI have open training and closed training tracks whereas GDI has only closed training. Up to 3 runs are permitted for each task\track. A maximum of 15 runs can be submitted across the three tasks:
+
+- DSL task: 6 runs (3 closed training, 3 open training)
+- ADI task: 6 runs (3 closed training, 3 open training)
+- GDI task: 3 runs (3 closed training, no open training)
+
+You are free to participate in any of the tasks or in all of them. In the shared task report we will include results for each task.
+
+Please include all your files into a single ZIP file and send to: vardialworkshop@gmail.com
+
+Please also include a text file (one or two paragraphs) with a description of the methods you used in each of your runs.
+
+=== SUBMISSION FORMAT for DSL, ADI, and GDI ===
+
+The test data will only contain sentences without their language/variety/dialect labels.
+
+(1) Each submission file should have the predicted labels for each sentence, with one label per line, in the same order as the original test set. This is similar to the training data, but discards the sentences and keeps just the labels. It is important that the number of lines in the submission match that of the test set file.
+
+(2) Please name your submission files with the following convention, all in lowercase:
+
+        <team_name>-<task>-<open_or_closed>-<run#>.txt
+
+For example, if your team_name is "USAAR", participating in the DSL task, and it's a closed training submission and it's the 1st run that you want to submit, the submission file should be as such:
+
+        usaar-DSL-closed-run1.txt
+
+Other example filenames:
+
+        usaar-DSL-closed-run2.txt
+        usaar-DSL-open-run1.txt
+        usaar-GDI-closed-run1.txt
+        usaar-ADI-closed-run1.txt
+        usaar-ADI-open-run1.txt
+        usaar-ADI-open-run2.txt
+
+(3) Please also compress ALL run submissions into a single file and send it to vardialworkshop@gmail.com before the submission deadline, please name compressed file in the following format: (team_name.zip) For example:
+
+        usaar.zip
+
+(4) Do specify in the email title when sending the compression submission file, e.g. (team_name VarDial2017 submission), Title: USAAR VarDial2017 submission
+
+(5) For each task, each team is ONLY allowed to submit 3 runs for closed and/or 3 runs for open training. Please remember that GDI only accepts closed submission.
+
+(6) Along with the systems runs, submit a short description of your system. This is to facilitate the description of the systems in the summary/findings paper for the shared task. You can put it as a plain text file into the compressed zip or just write it in the email as you send the submissions.
+
+=== DATES for all tasks ===
+
+We will providing you 2 days to return your submissions. We would like you to return your submissions by January 27, 2017 at 23:59 EST at the latest.
+
+We will be contacting you again on Wednesday to share the links to the test sets.
+
+Good luck!
+
+Best,
+Marcos on behalf of the VarDial organizers
