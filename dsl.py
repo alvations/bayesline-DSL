@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import sys
 import time
 import pickle
 
@@ -25,27 +26,31 @@ X_train, y_train = data(dsl2017['train'])
 X_dev, y_dev = data(dsl2017['dev'])
 #X_test, y_test = data(dsl['test'])
 
-print ('Vectorizing...', end='')
+
+n_min, n_max = int(sys.argv[1]), int(sys.argv[2])
+
+print ('Vectorizing...', end='', flush=True)
 start = time.time()
 ngram_vectorizer = CountVectorizer(analyzer='char',
-                                   ngram_range=(1, 5), min_df=1)
+                                   ngram_range=(n_min, n_max), min_df=1)
 trainset = ngram_vectorizer.fit_transform(X_train)
 tags = y_train
 end = time.time() - start
-print ('took {} seconds.'.format(end))
+print ('took {} seconds.'.format(end), flush=True)
 
-with open('bayesline.vectorizer', 'wb') as fout:
+with open('bayesline.{}_to_{}-gram.vectorizer'.format(n_min, n_max), 'wb') as fout:
     pickle.dump(ngram_vectorizer, fout)
 
-print ('Training... ', end='')
+print ('Training... ', end='', flush=True)
 start = time.time()
 classifier = MultinomialNB()
-classifier.fit(X_train, y_train)
+classifier.fit(trainset, tags)
 end = time.time() - start
-print ('took {} seconds.'.format(end))
+print ('took {} seconds.'.format(end), flush=True)
 
-with open('bayesline.classifier', 'wb') as fout:
+with open('bayesline.{}_to_{}-gram.classifier'.format(n_min, n_max), 'wb') as fout:
     pickle.dump(classifier, fout)
 
-predictions = classifier.predict(X_dev)
+devset = ngram_vectorizer.transform(X_dev)
+predictions = classifier.predict(devset)
 print (accuracy_score(y_dev, predictions))
