@@ -19,7 +19,8 @@ def data(filename):
         for line in fin:
             x, *y = line.strip().split('\t')
             sentences.append(x)
-            labels.append(y[0])
+            if y:
+                labels.append(y[0])
         return sentences, labels
 
 X_train, y_train = data(dsl2017['train'])

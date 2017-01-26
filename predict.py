@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 
 dsl2017 = {'train': 'DSLCC-2017/Train/DSL/DSL-TRAIN.txt',
            'dev': 'DSLCC-2017/Train/DSL/DSL-DEV.txt',
-           'test': 'DSLCC-2015/Test/DSL/DSL-test.txt'}
+           'test': 'DSLCC-2017/Test/DSL/DSL-test.txt'}
 
 
 def data(filename):
@@ -18,7 +18,8 @@ def data(filename):
         for line in fin:
             x, *y = line.strip().split('\t')
             sentences.append(x)
-            labels.append(y[0])
+            if y:
+                labels.append(y[0])
         return sentences, labels
 
 
@@ -31,10 +32,10 @@ with open(vectorizer_filename, 'rb') as fin:
 with open(classifer_filename, 'rb') as fin:
     classifier = pickle.load(fin)
 
-X_test, _ = data(dsl['test'])
+X_test, _ = data(dsl2017['test'])
 
 testset = vectorizer.transform(X_test)
-predictions = classifier.predict(devset)
+predictions = classifier.predict(testset)
 
 for p in predictions:
     print (p)
