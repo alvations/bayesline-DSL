@@ -23,7 +23,7 @@ ngram_vectorizer = CountVectorizer(analyzer='char',
 
 trainset = ngram_vectorizer.fit_transform(X_train)
 tags = y_train
-classifier = classifier_choice()
+classifier = MultinomialNB()
 classifier.fit(X_train, y_train)
 
 
