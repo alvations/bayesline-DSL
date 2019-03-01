@@ -1,0 +1,389 @@
+Model 1 to 1 grams...
+Vectorizing...took 1.297764778137207 seconds.
+Training... took 0.8218259811401367 seconds.
+0.5424049674390429
+
+Model 1 to 2 grams...
+Vectorizing...took 2.8400020599365234 seconds.
+Training... took 0.9084727764129639 seconds.
+0.6674996213842193
+
+Model 2 to 2 grams...
+Vectorizing...took 1.8894622325897217 seconds.
+Training... took 0.855989933013916 seconds.
+0.6850673936089656
+
+Model 1 to 3 grams...
+Vectorizing...took 5.539652109146118 seconds.
+Training... took 1.182821273803711 seconds.
+0.6915795850371044
+
+Model 2 to 3 grams...
+Vectorizing...took 4.524247407913208 seconds.
+Training... took 1.1387288570404053 seconds.
+0.7102074814478267
+
+Model 3 to 3 grams...
+Vectorizing...took 2.8207528591156006 seconds.
+Training... took 1.0289416313171387 seconds.
+0.709828865667121
+
+Model 1 to 4 grams...
+Vectorizing...took 9.638025999069214 seconds.
+Training... took 1.5790178775787354 seconds.
+0.7020293805845828
+
+Model 2 to 4 grams...
+Vectorizing...took 8.48371148109436 seconds.
+Training... took 1.5663480758666992 seconds.
+0.7238376495532334
+
+Model 3 to 4 grams...
+Vectorizing...took 6.705681324005127 seconds.
+Training... took 1.4666545391082764 seconds.
+0.7236104800848099
+
+Model 4 to 4 grams...
+Vectorizing...took 3.695857524871826 seconds.
+Training... took 1.1828680038452148 seconds.
+0.6690140845070423
+
+Model 1 to 5 grams...
+Vectorizing...took 14.420955181121826 seconds.
+Training... took 2.128239870071411 seconds.
+0.702180826896865
+
+Model 2 to 5 grams...
+Vectorizing...took 13.309091567993164 seconds.
+Training... took 2.0699994564056396 seconds.
+0.7242162653339391
+
+Model 3 to 5 grams...
+Vectorizing...took 11.457550525665283 seconds.
+Training... took 1.9720592498779297 seconds.
+0.7265636831743147
+
+Model 4 to 5 grams...
+Vectorizing...took 8.473145961761475 seconds.
+Training... took 1.697392225265503 seconds.
+0.6771164622141451
+
+Model 5 to 5 grams...
+Vectorizing...took 4.549069166183472 seconds.
+Training... took 1.3075857162475586 seconds.
+0.5978343177343631
+
+Model 1 to 6 grams...
+Vectorizing...took 19.610016345977783 seconds.
+Training... took 2.6840758323669434 seconds.
+0.7005149174617598
+
+Model 2 to 6 grams...
+Vectorizing...took 18.50575280189514 seconds.
+Training... took 2.6672422885894775 seconds.
+0.722626079054975
+
+Model 3 to 6 grams...
+Vectorizing...took 16.680601358413696 seconds.
+Training... took 2.5724432468414307 seconds.
+0.7251249432076329
+
+Model 4 to 6 grams...
+Vectorizing...took 13.29363226890564 seconds.
+Training... took 2.281607151031494 seconds.
+0.6728002423140996
+
+Model 5 to 6 grams...
+Vectorizing...took 9.57083249092102 seconds.
+Training... took 1.866640329360962 seconds.
+0.6000302892624565
+
+Model 6 to 6 grams...
+Vectorizing...took 4.832533359527588 seconds.
+Training... took 1.3605830669403076 seconds.
+0.5029532030895048
+
+Model 1 to 7 grams...
+Vectorizing...took 25.14253044128418 seconds.
+Training... took 3.3228209018707275 seconds.
+0.6977888838406785
+
+Model 2 to 7 grams...
+Vectorizing...took 24.06107497215271 seconds.
+Training... took 3.284313917160034 seconds.
+0.7199000454338936
+
+Model 3 to 7 grams...
+Vectorizing...took 21.937300205230713 seconds.
+Training... took 3.153688669204712 seconds.
+0.7236862032409511
+
+Model 4 to 7 grams...
+Vectorizing...took 19.26612091064453 seconds.
+Training... took 2.8935258388519287 seconds.
+0.6713615023474179
+
+Model 5 to 7 grams...
+Vectorizing...took 14.865302562713623 seconds.
+Training... took 2.514021873474121 seconds.
+0.5983643798273512
+
+Model 6 to 7 grams...
+Vectorizing...took 10.009048461914062 seconds.
+Training... took 1.954737901687622 seconds.
+0.5084809934878086
+
+Model 7 to 7 grams...
+Vectorizing...took 4.955098867416382 seconds.
+Training... took 1.4034607410430908 seconds.
+0.3908072088444646
+
+Model 1 to 8 grams...
+Vectorizing...took 30.212838411331177 seconds.
+Training... took 3.941614866256714 seconds.
+0.6946842344388914
+
+Model 2 to 8 grams...
+Vectorizing...took 29.223960876464844 seconds.
+Training... took 3.905825614929199 seconds.
+0.7177797970619415
+
+Model 3 to 8 grams...
+Vectorizing...took 27.110337734222412 seconds.
+Training... took 3.7875704765319824 seconds.
+0.721565954868999
+
+Model 4 to 8 grams...
+Vectorizing...took 24.513107299804688 seconds.
+Training... took 3.5020980834960938 seconds.
+0.6685597455701954
+
+Model 5 to 8 grams...
+Vectorizing...took 20.158512830734253 seconds.
+Training... took 3.092649221420288 seconds.
+0.5949568378009995
+
+Model 6 to 8 grams...
+Vectorizing...took 15.337559223175049 seconds.
+Training... took 2.570880889892578 seconds.
+0.5062092988035741
+
+Model 7 to 8 grams...
+Vectorizing...took 10.257208108901978 seconds.
+Training... took 2.0062367916107178 seconds.
+0.3975465697410268
+
+Model 8 to 8 grams...
+Vectorizing...took 4.986152648925781 seconds.
+Training... took 1.3971071243286133 seconds.
+0.30857186127517794
+
+Model 1 to 9 grams...
+Vectorizing...took 35.06903839111328 seconds.
+Training... took 4.544062376022339 seconds.
+0.6933969407844919
+
+Model 2 to 9 grams...
+Vectorizing...took 33.91713857650757 seconds.
+Training... took 4.5116868019104 seconds.
+0.7157352718461305
+
+Model 3 to 9 grams...
+Vectorizing...took 32.00669741630554 seconds.
+Training... took 4.341581583023071 seconds.
+0.7202786612145994
+
+Model 4 to 9 grams...
+Vectorizing...took 29.229719400405884 seconds.
+Training... took 4.1202147006988525 seconds.
+0.666818112978949
+
+Model 5 to 9 grams...
+Vectorizing...took 25.093005657196045 seconds.
+Training... took 3.6985905170440674 seconds.
+0.5940481599273058
+
+Model 6 to 9 grams...
+Vectorizing...took 20.70890736579895 seconds.
+Training... took 3.1791775226593018 seconds.
+0.5037104346509163
+
+Model 7 to 9 grams...
+Vectorizing...took 15.596401929855347 seconds.
+Training... took 2.6575706005096436 seconds.
+0.3942147508708163
+
+Model 8 to 9 grams...
+Vectorizing...took 10.200968503952026 seconds.
+Training... took 2.017298936843872 seconds.
+0.32008178100863244
+
+Model 9 to 9 grams...
+Vectorizing...took 5.008094787597656 seconds.
+Training... took 1.4005670547485352 seconds.
+0.25011358473421175
+
+Model 1 to 10 grams...
+Vectorizing...took 39.85447669029236 seconds.
+Training... took 5.223527431488037 seconds.
+0.6918067545055278
+
+Model 2 to 10 grams...
+Vectorizing...took 38.72385263442993 seconds.
+Training... took 5.15646767616272 seconds.
+0.7149023171285779
+
+Model 3 to 10 grams...
+Vectorizing...took 36.8584885597229 seconds.
+Training... took 4.997787952423096 seconds.
+0.718537028623353
+
+Model 4 to 10 grams...
+Vectorizing...took 33.60243368148804 seconds.
+Training... took 4.701240301132202 seconds.
+0.6662123277298198
+
+Model 5 to 10 grams...
+Vectorizing...took 29.932039976119995 seconds.
+Training... took 4.293872356414795 seconds.
+0.5925336968044828
+
+Model 6 to 10 grams...
+Vectorizing...took 25.389844179153442 seconds.
+Training... took 3.7677347660064697 seconds.
+0.5033318188702105
+
+Model 7 to 10 grams...
+Vectorizing...took 20.601134538650513 seconds.
+Training... took 3.196141004562378 seconds.
+0.3926245645918522
+
+Model 8 to 10 grams...
+Vectorizing...took 15.421146154403687 seconds.
+Training... took 2.6502785682678223 seconds.
+0.3166742389822808
+
+Model 9 to 10 grams...
+Vectorizing...took 10.059272289276123 seconds.
+Training... took 1.9917898178100586 seconds.
+0.260487657125549
+
+Model 10 to 10 grams...
+Vectorizing...took 4.816401720046997 seconds.
+Training... took 1.3779301643371582 seconds.
+0.19680448281084356
+
+Model 1 to 11 grams...
+Vectorizing...took 44.09752559661865 seconds.
+Training... took 5.661919832229614 seconds.
+0.6904437376949871
+
+Model 2 to 11 grams...
+Vectorizing...took 43.38233232498169 seconds.
+Training... took 5.6564507484436035 seconds.
+0.7143722550355899
+
+Model 3 to 11 grams...
+Vectorizing...took 42.77838730812073 seconds.
+Training... took 5.5524609088897705 seconds.
+0.7176283507496592
+
+Model 4 to 11 grams...
+Vectorizing...took 37.87437558174133 seconds.
+Training... took 5.2860283851623535 seconds.
+0.6659094351052551
+
+Model 5 to 11 grams...
+Vectorizing...took 34.23949408531189 seconds.
+Training... took 4.871919631958008 seconds.
+0.592609419960624
+
+Model 6 to 11 grams...
+Vectorizing...took 29.938804388046265 seconds.
+Training... took 4.3448991775512695 seconds.
+0.5018930789035287
+
+Model 7 to 11 grams...
+Vectorizing...took 25.221302270889282 seconds.
+Training... took 3.7887308597564697 seconds.
+0.391488717249735
+
+Model 8 to 11 grams...
+Vectorizing...took 20.159311532974243 seconds.
+Training... took 3.1813101768493652 seconds.
+0.31485688323489325
+
+Model 9 to 11 grams...
+Vectorizing...took 14.987240314483643 seconds.
+Training... took 2.568082094192505 seconds.
+0.2598818718764198
+
+Model 10 to 11 grams...
+Vectorizing...took 9.731162786483765 seconds.
+Training... took 1.9874913692474365 seconds.
+0.2105860972285325
+
+Model 11 to 11 grams...
+Vectorizing...took 4.639346361160278 seconds.
+Training... took 1.3614575862884521 seconds.
+0.15712554899288203
+
+Model 1 to 12 grams...
+Vectorizing...took 48.660465478897095 seconds.
+Training... took 6.330489158630371 seconds.
+0.6893078903528699
+
+Model 2 to 12 grams...
+Vectorizing...took 47.392523765563965 seconds.
+Training... took 6.230979681015015 seconds.
+0.7134635771618961
+
+Model 3 to 12 grams...
+Vectorizing...took 45.14948391914368 seconds.
+Training... took 6.06533145904541 seconds.
+0.7167196728759655
+
+Model 4 to 12 grams...
+Vectorizing...took 42.22281527519226 seconds.
+Training... took 5.838845729827881 seconds.
+0.6652279266999849
+
+Model 5 to 12 grams...
+Vectorizing...took 38.66818451881409 seconds.
+Training... took 5.397489070892334 seconds.
+0.5923065273360594
+
+Model 6 to 12 grams...
+Vectorizing...took 34.86851096153259 seconds.
+Training... took 4.887416839599609 seconds.
+0.502044525215811
+
+Model 7 to 12 grams...
+Vectorizing...took 29.056141138076782 seconds.
+Training... took 4.316769361495972 seconds.
+0.39050431621990006
+
+Model 8 to 12 grams...
+Vectorizing...took 24.52431344985962 seconds.
+Training... took 3.786316156387329 seconds.
+0.31409965167348175
+
+Model 9 to 12 grams...
+Vectorizing...took 19.494536638259888 seconds.
+Training... took 3.1129143238067627 seconds.
+0.2591246403150083
+
+Model 10 to 12 grams...
+Vectorizing...took 14.482664585113525 seconds.
+Training... took 2.510723114013672 seconds.
+0.20990458882326216
+
+Model 11 to 12 grams...
+Vectorizing...took 9.268317937850952 seconds.
+Training... took 1.9094905853271484 seconds.
+0.16871119188247766
+
+Model 12 to 12 grams...
+Vectorizing...took 4.457701206207275 seconds.
+Training... took 1.338409185409546 seconds.
+0.12259578979251855
